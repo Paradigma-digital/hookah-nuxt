@@ -1,17 +1,19 @@
 <script>
-import { Fancybox } from "@fancyapps/ui";
-import "@fancyapps/ui/dist/fancybox/fancybox.css";
-
 export default {
   props: {
     options: Object,
   },
-  mounted() {
+  async mounted() {
+    const { Fancybox } = await import("@fancyapps/ui");
+    import("@fancyapps/ui/dist/fancybox/fancybox.css");
+
     Fancybox.bind(this.$refs.container, "[data-fancybox]", {
       ...(this.options || {}),
     });
   },
-  updated() {
+  async updated() {
+    const { Fancybox } = await import("@fancyapps/ui");
+
     Fancybox.unbind(this.$refs.container);
     Fancybox.close();
 
@@ -19,7 +21,8 @@ export default {
       ...(this.options || {}),
     });
   },
-  unmounted() {
+  async unmounted() {
+    const { Fancybox } = await import("@fancyapps/ui");
     Fancybox.destroy();
   },
 };
@@ -30,5 +33,3 @@ export default {
     <slot></slot>
   </div>
 </template>
-
-<style></style>
