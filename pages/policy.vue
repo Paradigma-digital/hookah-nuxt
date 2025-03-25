@@ -1,5 +1,5 @@
 <script setup>
-import { Policy } from "@/pages/Policy";
+import { Policy } from "@/pages/policy";
 </script>
 
 <template>
