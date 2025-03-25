@@ -9,7 +9,6 @@ import { Faq } from "@/widgets/faq";
 import { manualList } from "../config";
 import hookahFaqImg from "@/shared/assets/images/hookah-white.jpg";
 import contactsImg from "@/shared/assets/images/gallery/5.jpg";
-import { KinesisContainer, KinesisElement } from "vue-kinesis";
 import { onMounted, ref, reactive } from "vue";
 import he from "he";
 const manualData = ref([]);

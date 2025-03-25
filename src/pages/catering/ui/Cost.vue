@@ -2,7 +2,6 @@
 import { TelegramIcon } from "@/shared/icons";
 import { WhatsappIcon } from "@/shared/icons";
 import { Button } from "@/shared/ui/button";
-import { KinesisContainer, KinesisElement } from "vue-kinesis";
 import { onMounted, ref } from "vue";
 import he from "he";
 import { useModalStore } from "@/entities/modal-store";

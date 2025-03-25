@@ -6,7 +6,6 @@ import { costList } from "../config";
 import costImg from "@/shared/assets/images/cost.jpg";
 import { useModalStore } from "@/entities/modal-store";
 import { WhatsappIcon, TelegramIcon } from "@/shared/icons";
-import { KinesisContainer, KinesisElement } from "vue-kinesis";
 import he from "he";
 import { onMounted, ref } from "vue";
 

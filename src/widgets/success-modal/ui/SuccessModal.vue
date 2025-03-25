@@ -1,5 +1,4 @@
 <script setup>
-import { useForm } from "vue-hooks-form";
 import { CloseIcon, TelegramIcon, WhatsappIcon } from "@/shared/icons";
 import { Button } from "@/shared/ui/button";
 import { TheMask } from "vue-the-mask";

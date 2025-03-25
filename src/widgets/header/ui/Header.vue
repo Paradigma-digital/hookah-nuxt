@@ -8,7 +8,6 @@ import { Button } from "@/shared/ui/button";
 import { useMenuStore } from "@/entities/menu-store";
 import { useModalStore } from "@/entities/modal-store";
 import { links } from "@/shared/config";
-import { KinesisContainer, KinesisElement } from "vue-kinesis";
 const active = ref(false);
 const menu = useMenuStore();
 const modal = useModalStore();

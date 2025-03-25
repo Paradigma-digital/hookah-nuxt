@@ -25,10 +25,7 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@pinia/nuxt", "@vueuse/motion/nuxt"],
-  plugins: [
-    { src: "src/shared/plugins/kinesis.js", mode: "client" },
-    { src: "src/shared/plugins/mask.js", mode: "client" },
-  ],
+  plugins: [{ src: "src/shared/plugins/mask.js", mode: "client" }],
   devtools: { enabled: true },
 
   alias: {
