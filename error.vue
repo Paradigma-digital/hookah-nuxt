@@ -53,7 +53,7 @@ const toMainPage = () => {
         <Button variable="primary" :click="toMainPage"> на главную </Button>
       </div>
       <div class="image-block">
-        <img src="@/shared/assets/images/error.jpg" alt="error" />
+        <img src="/image/error.jpg" alt="error" />
       </div>
     </div>
     <div class="contacts-info">
