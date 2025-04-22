@@ -1,4 +1,5 @@
 <script setup>
+import "@/shared/styles/index.scss";
 import { Header } from "@/widgets/header";
 import { Footer } from "@/widgets/footer";
 import { Modal } from "@/widgets/modal";
